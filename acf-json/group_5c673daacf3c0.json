@@ -1,0 +1,323 @@
+{
+    "key": "group_5c673daacf3c0",
+    "title": "Home Contents",
+    "fields": [
+        {
+            "key": "field_5c673dc8328c0",
+            "label": "Home Contents",
+            "name": "home_contents",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5c674d39e9025",
+                    "label": "Home Content",
+                    "name": "home_content",
+                    "type": "group",
+                    "instructions": "Enter the information for the home page.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c674de54580c",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Title of home page i.e. Durham Tax Help.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Durham Tax Help",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5c674df24580d",
+                            "label": "Statement",
+                            "name": "statement",
+                            "type": "textarea",
+                            "instructions": "Introductory paragraph.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "It's never too late\r\nto file your taxes! Tax filing can\r\nboost your income, and we can\r\nshow you how.",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5c75b0e57b0d0",
+                            "label": "Find Help Button",
+                            "name": "find_help_button",
+                            "type": "textarea",
+                            "instructions": "\"Find Tax Help\" button text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Find Tax Help",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5c75b10f7b0d1",
+                            "label": "Convert Button",
+                            "name": "convert_button",
+                            "type": "textarea",
+                            "instructions": "\"Qualify\" button text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Qualify",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5c75a397e00ef",
+                            "label": "Conversion Messages",
+                            "name": "conversion_messages",
+                            "type": "group",
+                            "instructions": "Tell the user what happens whether their income is too high or too low.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5c75a701e00f0",
+                                    "label": "Begin",
+                                    "name": "begin",
+                                    "type": "text",
+                                    "instructions": "Here is where they are warranted to enter their income.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Enter your income to see if you qualify.",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5c75a763e00f1",
+                                    "label": "Successful",
+                                    "name": "successful",
+                                    "type": "text",
+                                    "instructions": "If the users income is withing qualifying standards, send this message.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Wonderful, you qualify!",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5c75a78ae00f2",
+                                    "label": "Failed",
+                                    "name": "failed",
+                                    "type": "text",
+                                    "instructions": "If the income entered is too high, send this message to the page.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Sorry, that income is too high.",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5c75a7efe00f3",
+                                    "label": "Invalid",
+                                    "name": "invalid",
+                                    "type": "text",
+                                    "instructions": "If the income is not a convertible number then prompt them to enter one.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Please enter a valid number.",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_5c731e936d560",
+                            "label": "Image1",
+                            "name": "image1",
+                            "type": "image",
+                            "instructions": "Add some nice characters or something!",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5c7f2a1074407",
+                            "label": "Image2",
+                            "name": "image2",
+                            "type": "image",
+                            "instructions": "Add some nice characters or something!",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5c7f2a1a74408",
+                            "label": "Image3",
+                            "name": "image3",
+                            "type": "image",
+                            "instructions": "Add some nice characters or something!",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5c7f2a2174409",
+                            "label": "Image4",
+                            "name": "image4",
+                            "type": "image",
+                            "instructions": "Add some nice characters or something!",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1553638930
+}

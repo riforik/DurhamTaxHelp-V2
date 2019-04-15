@@ -1,0 +1,396 @@
+[
+    {
+        "key": "group_5c87f939b4229",
+        "title": "Qualify Contents",
+        "fields": [
+            {
+                "key": "field_5c87fd5b24420",
+                "label": "Qualify Contents",
+                "name": "qualify_contents",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5c8801b98acb5",
+                        "label": "Qualify Content",
+                        "name": "qualify_content",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5c8801e9ebfa5",
+                                "label": "Heading",
+                                "name": "heading",
+                                "type": "text",
+                                "instructions": "Title for this section",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "How To Qualify",
+                                "placeholder": "How To Qualify",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87fe5024427",
+                                "label": "heading1",
+                                "name": "heading1",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Eligibility Criteria:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87fe5824428",
+                                "label": "statement",
+                                "name": "statement",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "People need to be present to have their income tax returns completed. For example, in the case of couples, both partners need to be present, and in the case of any children who are earning an income, those children need to be present.\r\n\r\nEach clinic has specific eligibility criteria based upon income level and place of residence. Please review the clinic description carefully.",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87fe8124429",
+                                "label": "paragraph1_heading",
+                                "name": "paragraph1_heading",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Volunteers cannot help with income tax returns for:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87fe962442a",
+                                "label": "paragraph1_content",
+                                "name": "paragraph1_content",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "deceased individuals\r\nbankruptcies\r\ncapital gains or losses\r\nemployment expenses\r\nbusiness or rental income and expenses",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87fed22442b",
+                                "label": "paragraph2_heading",
+                                "name": "paragraph2_heading",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "The volunteers trained by Canada Revenue Agency follow these guidelines:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87fee82442c",
+                                "label": "paragraph2_content",
+                                "name": "paragraph2_content",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Individual $30,000 or less\r\n    Married or Common-Law couple $40,000 or less\r\n    Single Parent with 1 child $35,000 or less (add $2,500 per additional child)\r\n    Interest income limited to under $1,000",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87ff072442d",
+                                "label": "paragraph3_heading",
+                                "name": "paragraph3_heading",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "The Chartered Accountant volunteers follow these guidelines:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87ff182442e",
+                                "label": "paragraph3_content",
+                                "name": "paragraph3_content",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Individual with no dependents $25,000 or less",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87ff422442f",
+                                "label": "heading2",
+                                "name": "heading2",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "What to Bring:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87ff4e24430",
+                                "label": "content2",
+                                "name": "content2",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Rent or property taxes paid, where you lived, and the name of your landlord\r\n    Charitable or political donation receipts\r\n    Child care expenses\r\n    Disability Tax Credit Certificate (T2001)\r\n    Interest paid on student loans\r\n    Medical and dental expenses\r\n    RRSP contributions\r\n    Your previous year’s Income Tax Return\r\n    Your previous year’s Notice of Assessment",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87ff5924431",
+                                "label": "heading3",
+                                "name": "heading3",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "What to Bring:",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5c87ff7924432",
+                                "label": "content3",
+                                "name": "content3",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Social Insurance Number (SIN) for you, your spouse, and any dependents such as children.\r\n    List of your dependents' names and dates of birth\r\n    Details of your spouse's income\r\n    Details of your dependent's income\r\n    Direct deposit information for your refund, such as a void cheque\r\n    Anything you think might be needed for your income taxes\r\n    T3 - Statement of Trust Income\r\n    T4 – Statement of Remuneration Paid – received for paid employment\r\n    T4A – Statement of Pension, Retirement, Annuity, and Other Income\r\n    T4(OAS) – Old Age Security\r\n    T4A(P) – Canada Pension\r\n    T4RSP – Registered Retirement Savings\r\n    T4RIFT4U – Income from Retirement Savings\r\n    T5 – Statement of Investment Income\r\n    T5007 – Statement of Benefits\r\n    RC62 – Universal child care benefit statement\r\n    PT5007 (statement of benefits)",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5c87fdec24426",
+                                "label": "box",
+                                "name": "box",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "layout": "block",
+                                "sub_fields": []
+                            },
+                            {
+                                "key": "field_5c87fd9724422",
+                                "label": "Buttons",
+                                "name": "buttons",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "layout": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5c87fda024423",
+                                        "label": "button1",
+                                        "name": "button1",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "Am I Eligible?",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5c87fdb724424",
+                                        "label": "button2",
+                                        "name": "button2",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "Receipts",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5c87fdbf24425",
+                                        "label": "button3",
+                                        "name": "button3",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "Information Slips",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

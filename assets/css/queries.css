@@ -1,0 +1,500 @@
+/*          Q U E R I E S        */
+/* ------------ -q- ------------ */
+@media (min-width:0em) {
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+    /* custom menu */
+    .intro {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .characters {
+        display: none;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    #responsive-menu-container {
+        width: 340px;
+    }
+
+    /* SHARED */
+    .section_titles {
+        font-size: 30px;
+    }
+
+    .userInp,
+    .calculate,
+    .conversion {
+        font-size: 1.15em;
+    }
+
+    .findTxHp {
+        font-size: 1.75em;
+    }
+
+    .qualify_buttons {
+        padding: 14px 10px 10px 10px;
+        font-size: 1em;
+        margin-right: 5px;
+        width: auto;
+    }
+
+    #qualify_page .frame_image {
+        margin-left: 30px;
+        margin-right: 20px;
+        width: 66%;
+        height: 65%;
+        display: none;
+    }
+
+    #map-list {
+        height: 35vh;
+    }
+
+    #map-box {
+        height: 60vh;
+        order: -1;
+    }
+
+    #map-info {
+        height: 25vh;
+        display: none;
+    }
+
+    #locations_page .section_titles {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    #video_container {
+        padding-top: 20px;
+    }
+
+    #video_description {
+        line-height: 20px;
+        margin-top: -2px;
+        margin-bottom: 20px;
+    }
+
+    #volunteer_last_btn {
+        margin-top: 5px;
+    }
+
+    #benefits_finder_section {
+        padding: 40px;
+    }
+
+    #footer_holder img {
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .testimonials-page {
+        height: auto;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 10px;
+        text-align: justify;
+        padding-right: 35px;
+    }
+
+    .statement, #map-section h3 {
+        font-size: 1.25em;
+    }
+
+    #map-section h3 {
+        font-weight: bolder;
+    }
+
+    .how_to_qualify_btn_container {
+        height: 5%;
+        margin: 0 auto;
+        flex-flow: row wrap;
+    }
+
+    #menu-main-navigation {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    #site-navigation .top-bar {
+        display: none;
+    }
+
+    .sidebar {
+        height: auto;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #financial_empowerment {
+        padding: 20px;
+        padding-top: 30px;
+    }
+
+    #sideNav ol {
+        flex-flow: row wrap;
+    }
+}
+
+@media (min-width:30.063em) {
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .title {
+        font-size: 3em;
+    }
+
+    .statement {
+        font-size: 2em;
+    }
+
+    .userInp,
+    .calculate,
+    .conversion,
+    .map-list-option h3 {
+        font-size: 1.5em;
+    }
+
+    .findTxHp {
+        font-size: 1.25em;
+    }
+
+    .testimonials-page {
+        height: auto;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 12px;
+        text-align: justify;
+        padding-right: 25px;
+    }
+
+    .qualify_buttons {
+        font-size: 1.5em;
+    }
+
+    #footer_holder img {
+        height: 75px;
+        margin-left: 0;
+    }
+}
+
+/*
+and (orientation: landscape) -w-
+- for making page responsive clean up css and change media queries
+*/
+@media (min-width:40.063em) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .intro {
+        padding-right: 20px;
+    }
+
+    .findTxHp {
+        font-size: 1.5em;
+    }
+
+    .characters {
+        margin: 0 auto;
+        display: block;
+        order: 2;
+        height: 350px;
+        width: 45%;
+    }
+
+    #map-list {
+        height: 23vh;
+        order: -1;
+    }
+
+    /* main map */
+    #map-box {
+        height: 50vh;
+    }
+
+    #map-info {
+        height: 23vh;
+        display: block;
+    }
+
+    .how_to_qualify_btn_container {
+        height: 50%;
+        margin: auto 0;
+        flex-flow: column wrap;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        padding-right: 65px;
+    }
+}
+
+/*
+@media (max-height:600px) {
+    #map-list {
+        height: 50vh;
+        order: -1;
+    }
+
+    #map-box {
+        height: 50vh;
+    }
+
+    #map-info {
+        height: 50vh;
+        display: block;
+    }
+} */
+@media (min-width: 50.063em) {
+    #sidebar div img {
+        height: 76px;
+        width: 300px;
+    }
+
+    .sidebar {
+        height: 460px
+    }
+
+    #financial_empowerment {
+        padding: 60px;
+    }
+
+    #sideNav ol {
+        flex-flow: column nowrap;
+    }
+
+    .activeEmp {
+        background-color: transparent;
+    }
+
+    #sidebar {
+        display: block;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 24px;
+        text-align: justify;
+        padding-right: 65px;
+    }
+}
+
+@media (min-width:60.063em) {
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    /* Map Parts */
+    /* list of locations */
+    .intro {
+        background-color: rgba(255, 255, 255, 0);
+        width: 60%;
+    }
+
+    .characters {
+        margin: 0 auto;
+        display: block;
+        order: -1;
+        height: 350px;
+        width: 40%;
+    }
+
+    #map-list, #map-info {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 30px;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:64.063em) {
+
+    /* big landscape tablets, laptops, and desktops */
+    #map-list {
+        height: 70vh;
+        order: -1;
+    }
+
+    /* main map */
+    #map-box {
+        height: 70vh;
+    }
+
+    #map-info {
+        height: 70vh;
+        display: block;
+    }
+
+    .userInp,
+    .calculate,
+    .conversion {
+        font-size: 1.5em;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 1px solid black;
+        padding: 10px;
+        position: relative;
+        top: 10%;
+        left: 33%;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:70.063em) {
+
+    /* hi-res laptops and desktops */
+    .intro {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .statement {
+        font-size: 2em;
+    }
+
+    .findTxHp {
+        font-size: 1.2em;
+    }
+
+    #map-section h3 {
+        font-size: 1.5em;
+    }
+
+    #map-section h4,
+    #map-section h5,
+    #map-section h6 {
+        font-size: 1.25em;
+    }
+
+    .characters {
+        height: 500px;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 2px solid black;
+        padding: 10px;
+        position: relative;
+        top: 10%;
+        left: 33%;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:100.063em) {
+
+    /* hi-res laptops and desktops */
+    .intro {
+        width: 45%;
+    }
+
+    .title {
+        font-size: 6em;
+    }
+
+    .statement {
+        font-size: 3em;
+    }
+
+    .conversion,
+    .findTxHp {
+        font-size: 2em;
+    }
+
+    .characters {
+        height: 600px;
+    }
+
+    .peopleImg {
+        width: 17%;
+        border: 2px solid black;
+        padding: 10px;
+        position: relative;
+        top: 10%;
+        left: 33%;
+    }
+
+    .testimony {
+        position: relative;
+        top: -34%;
+        font-family: 'Shree Devanagari 714', sans-serif;
+        font-size: 25px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+}
